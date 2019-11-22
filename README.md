@@ -6,9 +6,9 @@
 引入方式
 
 
-flutter_file_manager:
-          git:
-            url: https://github.com/shenhuaxiyuan/flutter_file_manager.git
+flutter_file_manager:<br>
+  git:<br>
+    url: https://github.com/shenhuaxiyuan/flutter_file_manager.git<br>
 
 无法成功引入的同学请自行下载下来放到自己项目中，然后本地引用插件
 
@@ -33,7 +33,7 @@ FlutterFileManager.openFile({"path": file.path});
 
 打开文件功能需要自行在android的manifest中添加Provider
 
-![Image text](https://github.com/shenhuaxiyuan/flutter_file_manager/image.png)
+![Image](https://github.com/shenhuaxiyuan/flutter_file_manager/image.png)
 
 <provider
     android:name="androidx.core.content.FileProvider"
