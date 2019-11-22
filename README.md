@@ -8,9 +8,7 @@
 
 flutter_file_manager:
 
-
   git:
-
 
     url::https://github.com/shenhuaxiyuan/flutter_file_manager.git
 
