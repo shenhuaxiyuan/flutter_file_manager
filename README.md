@@ -7,8 +7,8 @@
 
 
 flutter_file_manager:<br>
-  git:<br>
-    url: https://github.com/shenhuaxiyuan/flutter_file_manager.git<br>
+* git:<br>
+* * url: https://github.com/shenhuaxiyuan/flutter_file_manager.git<br>
 
 无法成功引入的同学请自行下载下来放到自己项目中，然后本地引用插件
 
