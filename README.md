@@ -7,7 +7,11 @@
 
 
 flutter_file_manager:
+
+
   git:
+
+
     url::https://github.com/shenhuaxiyuan/flutter_file_manager.git
 
 
@@ -24,4 +28,4 @@ flutter_file_manager:
 
 
 打开文件
-FlutterFileManager.openFile({"path": file.path});# flutter_file_manager
+FlutterFileManager.openFile({"path": file.path});
