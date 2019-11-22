@@ -16,25 +16,26 @@
 使用方式
     调用文件浏览器获取文件地址(如果调用文件浏览器打开文件直接切换FileManagerType.OpenFile即可)
 
-
+` ``
   await FileCommon.getFilePermission();
 
 
   String path = await Navigator.of(context).push(MaterialPageRoute(
       builder: (context) => FileManagerPage(FileManagerType.GetPath)));
-
+` ``
 
 
 打开文件
+` ``
 FlutterFileManager.openFile({"path": file.path});
-
+` ``
 
 打开文件功能需要自行在android的manifest中添加Provider
 
 
 ![Image](https://github.com/shenhuaxiyuan/flutter_file_manager/blob/master/image.jpg)
 
-
+` ``
 <provider
     android:name="androidx.core.content.FileProvider"
     android:authorities="${applicationId}.fileprovider"
@@ -45,9 +46,10 @@ FlutterFileManager.openFile({"path": file.path});
         android:name="android.support.FILE_PROVIDER_PATHS"
         android:resource="@xml/filepaths" />
 </provider>
+` ``
 
 filepaths内容如下
-
+` ``
 <paths>
     <external-path
             name="external-path"
@@ -75,3 +77,4 @@ filepaths内容如下
         name="rc_root_path"
         path="" />
 </paths>
+` ``
