@@ -33,7 +33,7 @@ FlutterFileManager.openFile({"path": file.path});
 
 打开文件功能需要自行在android的manifest中添加Provider
 
-![Image text](https://github.com/shenhuaxiyuan/flutter_file_manager/image.png)
+![Image](https://github.com/shenhuaxiyuan/flutter_file_manager/image.png)
 
 <provider
     android:name="androidx.core.content.FileProvider"
