@@ -8,8 +8,10 @@
 引入方式
 
 请自行下载下来放到自己项目中，然后本地引用插件
->flutter_file_manager:
->>path: ./flutter_file_manager
+```
+flutter_file_manager:
+    path: ./flutter_file_manager
+```
 
 发现插件中的资源文件好像不能生效，可以自行把assets里面的图片文件拷贝到自己的资源文件内
 
